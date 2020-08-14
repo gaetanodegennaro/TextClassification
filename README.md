@@ -171,7 +171,7 @@ sns.countplot(data = df, x="Category")
 plt.show()
 ```
 
-![](TextClassification_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![](TextClassification_files/figure-latex/unnamed-chunk-11-1.png)
 
 ### Preprocessing
 
@@ -377,7 +377,7 @@ executeNB(termDoc, labels, df, MultinomialNB)
     ## 1071  entertainment  bbc  should allow more scrutiny  mps have urge...
     ## 1292  entertainment  uganda bans vagina monologues uganda s authori...
 
-<img src="TextClassification_files/figure-markdown_github/unnamed-chunk-17-1.png" height="70%" style="display: block; margin: auto;" /><img src="TextClassification_files/figure-markdown_github/unnamed-chunk-17-2.png" height="70%" style="display: block; margin: auto;" />
+<img src="TextClassification_files/figure-latex/unnamed-chunk-17-1.png" height="70%" style="display: block; margin: auto;" /><img src="TextClassification_files/figure-latex/unnamed-chunk-17-2.png" height="70%" style="display: block; margin: auto;" />
 
 ### Costruzione del modello Bernoulli Naive Bayes
 
@@ -431,7 +431,7 @@ executeNB(termDoc_bin, labels, df, BernoulliNB)
     ##       Category                                               Text
     ## 1233  politics  bnp leader nick griffin arrested the leader of...
 
-<img src="TextClassification_files/figure-markdown_github/unnamed-chunk-18-1.png" height="70%" style="display: block; margin: auto;" /><img src="TextClassification_files/figure-markdown_github/unnamed-chunk-18-2.png" height="70%" style="display: block; margin: auto;" />
+<img src="TextClassification_files/figure-latex/unnamed-chunk-18-1.png" height="70%" style="display: block; margin: auto;" /><img src="TextClassification_files/figure-latex/unnamed-chunk-18-2.png" height="70%" style="display: block; margin: auto;" />
 
 ### Estensioni
 
@@ -844,7 +844,7 @@ della *DocumentTermMatrix* con pesatura *TF-IDF*.
 executeNB(dtMatrix = dtm_tfidf, df = df, model = multinomial_naive_bayes)
 ```
 
-![](TextClassification_files/figure-markdown_github/unnamed-chunk-32-1.png)
+![](TextClassification_files/figure-latex/unnamed-chunk-32-1.png)
 
     ## 
     ##  
@@ -931,7 +931,7 @@ Naive Bayes Bernoulliano, questa volta utilizzando la
 executeNB(dtMatrix = dtm_bin, df = df, model = bernoulli_naive_bayes)
 ```
 
-![](TextClassification_files/figure-markdown_github/unnamed-chunk-33-1.png)
+![](TextClassification_files/figure-latex/unnamed-chunk-33-1.png)
 
     ## 
     ##  
